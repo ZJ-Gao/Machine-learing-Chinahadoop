@@ -1,0 +1,9 @@
+# 抽取attrition中的'Attrition'这一列，存储到y这个Series类型的变量中，并且完成元素值的转换，将Yes转为1，No转为0
+# Key Problem Set up: Create a new list to store the transformed element value, and then replace former series
+target_map = {'Yes':1, 'No':0}
+after = []
+y = attrition['Attrition']
+for element in y:
+  element = target_map[element]
+  after.append(element)
+y = pd.Series(after) # Pay attention to capital form of 'S'
