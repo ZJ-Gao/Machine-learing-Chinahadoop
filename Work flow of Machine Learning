@@ -1,3 +1,7 @@
 Step 1: Read Data
 Step 2: Clean Data
-Step 3: preprosessing of Data
+Step 3: Preprosessing of Data
+  1) What' the type of data in columns?
+  2) Save the name of  numerical columns and object columns in two different lists
+Step 4: Use models to test data
+  1) Test numerical data firstly
