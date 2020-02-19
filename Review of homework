@@ -1,0 +1,5 @@
+# Duplicate one column in dataframe
+y = attrition['Attrition'].copy()
+# Change column/row value directly according to some conditions 
+y.loc[attrition['Attrition']=='Yes']=1
+y.loc[attrition['Attrition']=='No']=0
