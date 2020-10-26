@@ -1,5 +1,5 @@
-# Machine-learing-Chinahadoop
-1) Four coding projects
+# Machine-learing-Chinahadoop  
+1) Four coding projects  
   a) Google employment analysis  
   b) IBM employee loss prediction  
   c) Loan application results prediction  
